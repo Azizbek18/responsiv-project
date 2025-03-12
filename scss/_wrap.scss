@@ -1,0 +1,78 @@
+.wrap .container{
+    height: 620px;
+    display: flex;
+    align-items:flex-end;
+    background-image: url("../image/kompyuter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap__blok{
+    width: 395px;
+    height: 370px;
+    background-color: #fff;
+}
+.wrap__title{
+    padding: 55px 0px 65px;
+    font-family: Ibarra Real Nova;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.45px;
+}
+.wrap__link{
+    display: flex;
+    align-items: center;
+    background-color: #203A4C;
+    width: 180px;
+    color: #fff;
+}
+.wrap__link:hover{
+    box-shadow: 0px 0px 20px #203A4C;
+}
+.wrap__text{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 25px;
+}
+@media (max-width:1140px) {
+    .wrap .container{
+        max-width: 768px;
+    }
+    .wrap .container{
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+    .wrap__blok{
+        width: 490px;
+        height: 260px;
+    }
+    .wrap__title{
+        padding: 25px 0px 35px;
+    }
+}
+@media (max-width:768px){
+    .wrap .container{
+        height: 310px;
+        max-width: 375px;
+        position: relative;
+    }
+    .wrap__blok{
+        width: 370px;
+        position: absolute;
+        top: 100%;
+    }
+    .wrap__title{
+        font-family: Ibarra Real Nova;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.36px;
+
+    }
+}
