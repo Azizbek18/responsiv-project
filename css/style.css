@@ -11,11 +11,16 @@
   margin: 0 auto;
 }
 
+.header.container {
+  background-color: #fff;
+}
+
 .nav {
   padding: 30px 0px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
 }
 
 .nav__list {
@@ -66,6 +71,7 @@
   }
   .bars {
     display: block;
+    padding: 0px 10px;
   }
 }
 .wrap .container {
@@ -73,6 +79,7 @@
   display: flex;
   align-items: flex-end;
   background-image: url("../image/kompyuter.png");
+  background: linear-gradient(to left, rgb(26, 24, 24));
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -244,8 +251,8 @@
   }
   .page__right {
     height: 600px;
-    width: 375px;
-    padding-bottom: 30px;
+    width: 395px;
+    padding-bottom: 0px;
   }
 }
 .wrapper .container {
